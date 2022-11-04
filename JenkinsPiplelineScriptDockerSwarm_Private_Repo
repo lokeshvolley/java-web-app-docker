@@ -3,7 +3,7 @@ node{
    def buildNumber = BUILD_NUMBER
    
     stage("Git clone"){
-        git url: 'git 'https://github.com/lokeshvolley/java-web-app-docker.git'/java-web-app-docker.git',branch: 'master'
+        git url: 'git 'https://github.com/lokeshvolley/java-web-app-docker.git',branch: 'master'
     }
     
     stage(" Maven Clean Package"){
